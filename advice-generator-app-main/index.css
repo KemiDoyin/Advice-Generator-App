@@ -26,6 +26,12 @@ body {
     color: white;
 }
 
+.advice__container {
+    background-color: var(--Dark-Grayish-Blue);
+    width: 60%;
+    border-radius: 12px;
+    font-size: 45px;
+}
 
 
 .attribution { font-size: 11px; text-align: center; }
