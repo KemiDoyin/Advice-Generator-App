@@ -31,21 +31,28 @@ body {
 
 .container {
     margin-bottom: 20px;
+    position: relative;
 }
 
 .advice__container {
     background-color: var(--Dark-Grayish-Blue);
-    max-width: 65%;
+    max-width: 59%;
     text-align: center;
     margin: 0 auto;
     border-radius: 12px;
-    padding: 10px 10px;
+    padding: 40px 40px;
     font-size: 15px;
     position: relative;
+}
+p {
+    max-width: 290px;
+    text-align: center;
+    margin-top: 40px;
 }
 
 h1 {
     text-align: center;
+    margin-top: 20px;
     margin-bottom: 20px;
     color: var(--Neon-Green);
     font-size: 15px;
@@ -53,7 +60,7 @@ h1 {
 
 .divider img {
     max-width: 100%;
-    margin-top: 23px;
+    margin-top: 53px;
     margin-bottom: 23px;
 }
 
@@ -61,38 +68,79 @@ h1 {
     background-color: var(--Neon-Green);
     border-radius: 50%;
     width: 19%;
-    height: 19%;
-    top: 90%;
+    height: 15%;
+    top: 87%;
     left: 40%;
+    margin-top: 10px;
     position: absolute;
     padding: 14px 3px 9px 12px;
 }
 .dice img {
     max-width: 40%;
     position: absolute;
-    left: 14px;
-    top: 10px;
+    left: 22px;
+    top: 12px;
 }
 
 
-.attribution { font-size: 11px; text-align: center; margin-top: 20px; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 11px; 
+    text-align: center; margin-top: 120px; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
 
-@media (min-width: 1280px) {
+
+ @media screen and (min-width:768px) {
+    .advice__container {
+        max-width: 100%;
+        margin-top: 10%;
+    }
+    .dice {
+        width: 12%;
+        left: 44%;
+    }
+    .dice img {
+        top: 12px;
+        left: 12px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .advice__container {
+        max-width: 100%;
+    }
+    .dice {
+        max-width: 12%;
+        left: 44%;
+        top: 88%;
+    }
+    .dice img {
+        top: 14px;
+        max-width: 30%;
+        left: 15px;
+    }
+}
+
+
+@media  (min-width: 1280px) {
     .advice__container {
         padding: 40px;
-        max-width: 50%;
+        max-width: 100%;
     }
     .divider {
         margin-top: 10px;
     }
     .dice {
-        width: 8%;
+        width: 17%;
+        top: 85%;
         height: 19%;
-        left: 45%;
+        left: 44%;
     }
     .dice img {
-        top: 15px;
-        left: 15px;
+        top: 19px;
+        left: 17px;
     }
 }
+
