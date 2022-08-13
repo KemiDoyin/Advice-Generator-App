@@ -36,7 +36,7 @@ body {
 
 .advice__container {
     background-color: var(--Dark-Grayish-Blue);
-    max-width: 59%;
+    max-width: 62%;
     text-align: center;
     margin: 0 auto;
     border-radius: 12px;
@@ -45,7 +45,8 @@ body {
     position: relative;
 }
 p {
-    max-width: 290px;
+    max-width: 320px;
+    font-size: 25px;
     text-align: center;
     margin-top: 40px;
 }
@@ -55,7 +56,9 @@ h1 {
     margin-top: 20px;
     margin-bottom: 20px;
     color: var(--Neon-Green);
-    font-size: 15px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 200;
 }
 
 .divider img {
@@ -74,6 +77,7 @@ h1 {
     margin-top: 10px;
     position: absolute;
     padding: 14px 3px 9px 12px;
+    cursor: pointer;
 }
 .dice img {
     max-width: 40%;
@@ -81,7 +85,13 @@ h1 {
     left: 22px;
     top: 12px;
 }
-
+.dice:hover {
+    box-shadow: 0 0 7px var(--Neon-Green),
+    0 0 10px var(--Neon-Green),
+    0 0 21px var(--Neon-Green),
+    0 0 42px var(--Neon-Green),
+    0 0 52px var(--Neon-Green);
+}
 
 .attribution { 
     font-size: 11px; 
