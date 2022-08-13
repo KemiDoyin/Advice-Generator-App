@@ -13,6 +13,7 @@
     text-decoration: none;
     box-sizing: border-box;
     padding: 0;
+    margin: 0;
 }
 
 body {
@@ -22,25 +23,53 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    /* margin: 30px 30px; */
     background-color: var(--Dark-Blue);;
     color: white;
     font-family: 'Manrope', sans-serif;
 }
 
+.container {
+    margin-bottom: 20px;
+}
 
 .advice__container {
     background-color: var(--Dark-Grayish-Blue);
-    width: 30%;
+    width: 50%;
     margin: 0 auto;
     border-radius: 12px;
-    padding: 90px;
-    font-size: 35px;
+    padding: 30px;
+    font-size: 15px;
+    position: relative;
 }
 
 h1 {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     color: var(--Neon-Green);
+    font-size: 15px;
+}
+
+.divider img {
+    max-width: 100%;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+.dice {
+    background-color: var(--Neon-Green);
+    border-radius: 50%;
+    width: 20%;
+    height: 19%;
+    top: 90%;
+    left: 40%;
+    position: absolute;
+    padding: 14px 3px 9px 12px;
+}
+.dice img {
+    max-width: 40%;
+    position: absolute;
+    left: 14px;
 }
 
 
