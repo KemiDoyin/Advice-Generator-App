@@ -35,10 +35,11 @@ body {
 
 .advice__container {
     background-color: var(--Dark-Grayish-Blue);
-    width: 50%;
+    max-width: 65%;
+    text-align: center;
     margin: 0 auto;
     border-radius: 12px;
-    padding: 30px;
+    padding: 10px 10px;
     font-size: 15px;
     position: relative;
 }
@@ -59,7 +60,7 @@ h1 {
 .dice {
     background-color: var(--Neon-Green);
     border-radius: 50%;
-    width: 20%;
+    width: 19%;
     height: 19%;
     top: 90%;
     left: 40%;
@@ -70,8 +71,9 @@ h1 {
     max-width: 40%;
     position: absolute;
     left: 14px;
+    top: 10px;
 }
 
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; margin-top: 20px; }
 .attribution a { color: hsl(228, 45%, 44%); }
