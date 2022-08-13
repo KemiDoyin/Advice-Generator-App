@@ -77,3 +77,22 @@ h1 {
 
 .attribution { font-size: 11px; text-align: center; margin-top: 20px; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media (min-width: 1280px) {
+    .advice__container {
+        padding: 40px;
+        max-width: 50%;
+    }
+    .divider {
+        margin-top: 10px;
+    }
+    .dice {
+        width: 8%;
+        height: 19%;
+        left: 45%;
+    }
+    .dice img {
+        top: 15px;
+        left: 15px;
+    }
+}
