@@ -10,7 +10,7 @@ dice.addEventListener('click', async () => {
         const res = await axios.get(APIURL)
         adviceSlip.textContent =
         res.data.slip.advice
-        slipId.textContent = res.data.slip.id
+        slipId.textContent = `#${res.data.slip.id}`
         console.log(res.data)
         console.log(res.data.slip)
     }
