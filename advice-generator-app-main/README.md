@@ -53,5 +53,5 @@ Users should be able to:
 
 
 ## Acknowledgments
-I would like to appreciate a special person who has always helped me out @Mcnoble1 [Festus Idowu](https://github.com/Mcnoble1)
+I would like to appreciate a special person who has always helped me out [@Mcnoble1](https://github.com/Mcnoble1)
 
