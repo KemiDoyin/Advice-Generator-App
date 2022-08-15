@@ -46,7 +46,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Kemi Adedoyin](https://kemiadedoyin-ka.netlify.app/)
+- Website - [https://kemiadedoyin-ka.netlify.app/](https://kemiadedoyin-ka.netlify.app/)
 - Frontend Mentor - [Kemi Doyin](https://www.frontendmentor.io/profile/KemiDoyin)
 - Twitter - [Kemi Adedoyin](https://twitter.com/KemiAdedoyin_)
 
