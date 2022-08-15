@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![advice generator screenshot](images/Screenshot%202022-08-15%20180102.jpg)
+![advice generator screenshot](images/screenshot.jpg)
 
 ### Links
 
